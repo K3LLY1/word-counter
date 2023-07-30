@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Heebo&family=Lexend&family=Montserrat:wght@500&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Quicksand:wght@300&display=swap');
+
+section h3{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(52,186,150) ;
+    font-weight: 700;
+}
+
+
+section{
+    padding-left: 100px;
+    padding-right: 160px;
+    padding-top: 70px;
+    height: 70vh;
+
+}
+
+section div{
+    display: flex;
+    width: 90%;
+    margin-left: 8%;
+    justify-content: space-between;
+
+    
+}
+
+section div p{
+    width: 45%;
+    font-size: 18px;
+    line-height: 1.48;
+    border: 2px solid rgb(52,186,150);
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
+    padding: 25px;
+}
+
+
+/* media query */
+
+@media (max-width: 1025px){
+    section{
+        padding-left: 0px;
+        padding-right: 50px;
+        padding-top: 70px;
+        height: 70vh;
+    
+    }
+    section div p{
+        width: 60%;
+        font-size: 13px;
+        line-height: 1.48;
+        padding: 18px;
+    }
+
+    section div{
+        gap: 50px;
+    }
+    section h3{
+        font-size: 25px;
+        margin-left: 78px
+    }
+
+}
+
+@media (max-width: 550px){
+    section{
+        padding-left: 20px;
+        padding-right: 50px;
+        padding-top: 70px;
+        height: 70vh;
+    
+    }
+    section div{
+        gap: 20px;
+    }
+    section div p{
+        width: 70%;
+        font-size: 10px;
+        line-height: 1.48;
+        padding: 8px;
+    }
+    section h3{
+        font-size: 20px;
+        margin-left: 40px
+    }
+}
+
+@media (max-width: 550px){
+    section{
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-top: 70px;
+        height: 70vh;
+ 
+    
+    }
+    section div{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    section div p{
+        width: 85%;
+        font-size: 10px;
+        line-height: 1.48;
+        padding: 8px;
+    }
+    section h3{
+        font-size: 20px;
+        margin-left: 35px
+    }
+
+}
+@media (max-width: 280px){
+    section{
+        padding-left: 7px;
+        padding-right: 0px;
+        padding-top: 70px;
+        height: 70vh;
+ 
+    
+    }
+    section div{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    section div p{
+        width: 90%;
+        font-size: 8px;
+        line-height: 1.48;
+        padding: 8px;
+    }
+    section h3{
+        font-size: 21px;
+        margin-left: 25px
+    }
+
+}

@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Heebo&family=Lexend&family=Montserrat:wght@500&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Quicksand:wght@300&display=swap');
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 242, 242);
+    height: 55vh;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+
+footer h1{
+    color: rgb(52,186,150);
+}
+
+footer .details{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+footer .codex{
+    margin-left: auto;
+    font-size: 12px;
+    
+}
+
+.follow #fol{
+    color: rgb(52,186,150);
+    font-size: 20px ;
+}
+
+@media (max-width: 1025px){
+    footer .details{
+        width: 100%;
+        margin-left: -30px;
+    }
+    footer .codex{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 940px){
+    footer .details{
+        width: 80%;
+        margin-left: 30px;
+    }
+    footer .codex{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    footer .details{
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    footer .codex{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 550px){
+    footer{
+       height: 40vh;
+    }
+    footer .details{
+        width: 130%;
+        margin-left: -70px;
+    }
+    footer h1{
+        font-size: 22px;
+        margin-left: -20px;
+    }
+
+    ul li{
+        font-size: 12px;
+    }
+
+    footer .codex{
+        font-size: 7px;
+        margin-right: -70px;
+    
+    }
+
+}
+
+@media (max-width: 480px){
+    footer h1{
+        font-size: 22px;
+        margin-left: -40px;
+    }
+    footer .details{
+        width: 150%;
+        margin-left: -90px;
+    }
+    ul li{
+        font-size: 10px;
+    }
+
+    .follow #fol{
+        font-size: 13px;
+    }
+   
+
+}
+
+@media (max-width: 430px){
+    footer{
+      height: 35vh;
+      
+    }
+    footer h1{
+        font-size: 22px;
+        margin-left: -65px;
+    }
+    footer .details{
+        width: 180%;
+        margin-left: -115px;
+    }
+    footer .codex{
+        font-size: 6px;
+        margin-right: -70px;
+    }
+}
+
+@media (max-width: 416px){
+    footer{
+        height: 25vh;
+    }
+    footer h1{
+        font-size: 20px;
+        margin-left: -65px;
+
+    }
+    footer .details{
+        width: 190%;
+        margin-left: -115px;
+    }
+    ul li{
+        font-size: 10px;
+    }
+
+    footer .codex{
+        font-size: 5px;
+        margin-right: -70px;
+    }
+}
+
+@media (max-width: 395px){
+    footer{
+        height: 30vh;
+        padding-top: 8px;
+    }
+    footer h1{
+        font-size: 18px;
+        margin-left: -60px;
+    }
+    footer .details{
+        width: 200%;
+        margin-left: -110px;
+        margin-bottom: 10px;
+    }
+    ul li{
+        font-size: 8px;
+    }
+
+    .follow #fol{
+        font-size: 10px;
+    }
+    footer .codex{
+        font-size: 5px;
+        margin-right: -70px;
+    
+    }
+
+}
+
+@media (max-width: 320px){
+    footer{
+        height: 28vh;
+    }
+    footer h1{
+        font-size: 15px;
+        margin-left: -60px;
+    }
+    footer .codex{
+        display: none;
+
+    }
+    ul li{
+        font-size: 6px;
+    }
+    footer .details{
+        width: 250%;
+        margin-left: -110px;
+        margin-bottom: 10px;
+    }
+    .follow #fol{
+        font-size: 8px;
+    }
+}
+
+
+
+
+
