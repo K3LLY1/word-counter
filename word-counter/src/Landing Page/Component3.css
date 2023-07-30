@@ -19,6 +19,7 @@
 .game button:hover{
     transform: scale(1.1);
 }
+
 .game button p{
     margin-left: 10px;
     font-size: 40px;
