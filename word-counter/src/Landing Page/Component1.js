@@ -146,6 +146,7 @@ function Component1() {
           <button onClick={deteleAll}><FontAwesomeIcon icon={faTrashCan} /></button>
           <button onClick={convertToUpperCase}><FontAwesomeIcon icon={faFont} /></button>
           <button onClick={convertToLowerCase}>a</button>
+        <div/>
 
           <div class="dropdown">
               <button><p>T</p> <p id='tee'>T</p></button>

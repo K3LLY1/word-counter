@@ -1,0 +1,49 @@
+.contents{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ul-lists li{
+    list-style-type: none;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ul-lists #follow{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(52,186,150);
+}
+
+@media(max-width:1025px){
+    .ul-lists li{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:435px){
+    .contents{
+       display: flex;
+       flex-wrap: wrap;
+      
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .ul-lists li{
+        font-size: 13px;
+    }
+    
+    .ul-lists #follow{
+        font-size: 15px;
+    }
+
+}
+@media(max-width: 376px){
+  
+    .ul-lists li{
+        font-size: 10px;
+    }
+}

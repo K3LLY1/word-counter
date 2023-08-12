@@ -33,7 +33,7 @@
 }
 
 /* media Query */
-@media (max-width: 1025px){
+@media (max-width: 1040px){
     .game button{
         margin-left: 35%;
         display: none;
@@ -75,9 +75,7 @@
         display: none;
         
     }
-    *{
-        text-align: center;
-    }
+   
 
 }
 

@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+  
     margin: 0;
     padding: 0;
     font-family: 'Heebo', sans-serif;
@@ -57,7 +57,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 90%;
+    width: 85%;
     align-items: center;
     margin-top: 50px;
     padding-right: 90px;
@@ -145,10 +145,11 @@ textarea{
 @media (max-width: 1025px){
     .container .counters{
         padding-left: 15px;
+        width: 80%;
      }
      .counters h2{
          margin-left: 60px;
-         font-size: 12px;
+         font-size: 13px;
      }
      .counters h2 p{
          padding: 6px 16px;
@@ -158,6 +159,10 @@ textarea{
          width: 40px;
          padding: 8px 7px;
          font-size: 18px;
+     }
+
+     textarea{
+        height: 500px;
      }
 
 }
@@ -183,24 +188,75 @@ textarea{
 
 
 }
-@media (max-width: 830px){
+@media (max-width: 920px){
+    .container textarea{
+        height: 500px;
+        width: 112%;
+        margin-left: 180px;
+    }
     .container .counters {
+        padding-left: 20px;
+        padding-right: 100px;
+        width: 100%;
+        margin-left: 180px;
+      
+    }
+    .container .counters h2{
+        font-size: 17px;
+    }
+}
+@media (max-width: 822px){
+    .container .counters {
+        padding-left: 20px;
+        padding-right: 100px;
+        width: 105%;
+        margin-left: 100px;
+    }
+
+    .container .tools{
+        display: none;
+    }
+    .counters h2{
+        margin-left: 80px;
+        font-size: 16px;
+    }
+
+    .container textarea{
+        width: 120%;
+        margin-left: 100px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .container .counters {
+        width: 95%;
         padding-left: 60px;
+        margin-right: 90px;
+    }
+    .container textarea{
+        width: 120%;
+        margin-left: 10px;
+        height: 500px;
     }
     .counters h2{
         margin-left: 30px;
     }
-}
 
-@media (max-width: 770px){
+}
+@media (max-width: 550px){
     .container .counters {
-        padding-left: 60px;
+        width: 86%;
+        padding-left: 65px;
+        margin-right: 90px;
     }
-    .counters h2{
-        margin-left: 30px;
+   
+    .container .counters h2{
+        font-size: 14px;
     }
 
 }
+
 @media (max-width: 480px){
     .container{
         display: flex;
@@ -237,47 +293,101 @@ textarea{
     }
 }
 
+
 @media (max-width: 435px){
     .container .wrapper{
         justify-content: center;
     }
     .container textarea{
-        margin-right: 100px;
+        margin-right: 40px;
         width: 113% ;
     }
     .container .counters{
-        margin-right: 95px;
-        width: 113%;
+        margin-right: 130px;
+        width: 70%;
     }
     .container .tools{
         display: none;
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 418px){
+    
+    .container .counters{
+        margin-right: 150px;
+        width: 68%;
+    }
+    .container textarea{
+        margin-right: 60px;
+        width: 113% ;
+    }
+}
+
+@media (max-width: 395px){
     .container .counters h2{
         font-size: 13px;
         margin-left: 50px;
     }
     .container .counters{
+       
         padding-left: 30px;
-      
+        width: 80%;
+    }
+
+    .container textarea{
+        font-size: 15px;
+        margin-right: 60px;
+    }
+
+    
+}
+@media (max-width: 380px){
+    .container .counters{
+        margin-right: 130px;
+        padding-left: 30px;
+        width: 77%;
+    }
+    .container textarea{
+        margin-right: 40px; 
     }
 }
 
-@media (max-width: 280px){
-    .container .counters h2{
+@media (max-width: 355px){
+    textarea{
         font-size: 10px;
-        margin-left: 20px;
+    }
+
+ 
+}
+@media (max-width: 330px){
+    .container .counters{
+        margin-right: 140px;
+        padding-left: 30px;
+        width: 85%;
+    }
+    .container textarea{
+        width: 125%;
+        margin-right: 50px;
+    }
+}
+
+
+
+@media (max-width: 290px){
+    .container .counters h2{
+        font-size: 14px;
+        margin-left: 50px;
     }
     .container .counters{
-        padding-left: 66px;
+        padding-left: 50px;
+        margin-right:110px;
+        width: 77%;
       
     }
     .container textarea{
-        margin-right: 100px;
-        width: 113% ;
-        font-size: 10px;
+        margin-right: 20px;
+        width: 150% ;
+        font-size: 12px;
         padding: 8px;
     }
 
