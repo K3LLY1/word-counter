@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/word-counter/static/css/main.f13fce23.css",
-    "main.js": "/word-counter/static/js/main.e9d81ef3.js",
+    "main.css": "/word-counter/static/css/main.1fe554fd.css",
+    "main.js": "/word-counter/static/js/main.edc4a90d.js",
     "static/js/787.3a039655.chunk.js": "/word-counter/static/js/787.3a039655.chunk.js",
     "index.html": "/word-counter/index.html",
-    "main.f13fce23.css.map": "/word-counter/static/css/main.f13fce23.css.map",
-    "main.e9d81ef3.js.map": "/word-counter/static/js/main.e9d81ef3.js.map",
+    "main.1fe554fd.css.map": "/word-counter/static/css/main.1fe554fd.css.map",
+    "main.edc4a90d.js.map": "/word-counter/static/js/main.edc4a90d.js.map",
     "787.3a039655.chunk.js.map": "/word-counter/static/js/787.3a039655.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f13fce23.css",
-    "static/js/main.e9d81ef3.js"
+    "static/css/main.1fe554fd.css",
+    "static/js/main.edc4a90d.js"
   ]
 }
